@@ -1,13 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Logoimg{
+    height: 10vh;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.NavBar{
+    display: flex;
+    border: 2px solid red;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.LogoName{
+    margin-left: 2vw;
+    margin-top: 1vh;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 4vh;
 }
