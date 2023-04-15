@@ -1,5 +1,7 @@
 import React from 'react'
 import NonFiction from './NonFiction'
+import Edited from './Edited'
+import Reference from  './Reference'
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom'
 const NavBar = () => {
     return (
@@ -9,8 +11,12 @@ const NavBar = () => {
             <div className='BookType'>
             <Router>
                 <Link to= "./NonFiction">NonFiction</Link>
+                <Link to= "./Edited">Edited</Link>
+                <Link to= "./Reference">Reference</Link>
                 <Routes>
                     <Route path='./NonFiction' Component={NonFiction}></Route>
+                    <Route path='./Edited' Component={Edited}></Route>
+                    <Route path='./Reference' Component={Reference}></Route>
                 </Routes>
             </Router>
             </div>
