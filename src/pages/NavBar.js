@@ -1,5 +1,5 @@
 import React from 'react'
-import NonFiction from './pages/NonFiction'
+import NonFiction from './NonFiction'
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom'
 const NavBar = () => {
     return (
@@ -8,9 +8,9 @@ const NavBar = () => {
             <h1 className='LogoName'>Kitabcopy</h1>
             <div className='BookType'>
             <Router>
-                <Link to= "/path/NonFiction">NonFiction</Link>
+                <Link to= "./NonFiction">NonFiction</Link>
                 <Routes>
-                    <Route path='/path/NonFiction' Component={NonFiction}></Route>
+                    <Route path='./NonFiction' Component={NonFiction}></Route>
                 </Routes>
             </Router>
             </div>
