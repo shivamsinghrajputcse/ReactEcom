@@ -17,7 +17,8 @@ const App = () => {
                     <Route path='./Edited' Component={Edited}></Route>
                     <Route path='./Reference' Component={Reference}></Route>
                 </Routes></Router>
-                </div></NavBar>
+                </div>
+            </NavBar>
         </div>
     )
 }
