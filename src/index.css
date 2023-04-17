@@ -1,9 +1,15 @@
 .Logoimg{
     height: 10vh;
 }
+.Headerbar{
+    display: flex;
+    flex-wrap: wrap;
+}
 .NavBar{
     display: flex;
     border: 2px solid red;
+    width: ;
+    align-items: center;
 }
 *{
     margin: 0px;
@@ -14,4 +20,25 @@
     margin-top: 1vh;
     font-family: 'Homemade Apple', cursive;
     font-size: 4vh;
+}
+.BookType{
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    width: 80vw;
+    justify-content: space-evenly;
+}
+.HeadingLink{
+    display: flex;
+    margin: 2rem;
+    font-family: 'Sacramento', cursive;
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+    font-weight: 600;
+    text-shadow: 4px 4px 10px black;
+}
+.HeadingLink:hover{
+    color: red;
+    text-shadow: 4px 4px 10px red;
 }
