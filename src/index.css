@@ -31,14 +31,17 @@
 .HeadingLink{
     display: flex;
     margin: 2rem;
-    font-family: 'Sacramento', cursive;
+    font-family: 'Dongle', sans-serif;
     text-decoration: none;
     font-size: xx-large;
     color: black;
-    font-weight: 600;
-    text-shadow: 4px 4px 10px black;
+    transition-duration: 1s;
+    border: 2px solid red;
+    /* font-weight: 600; */
+    /* text-shadow: 4px 4px 10px black; */
 }
 .HeadingLink:hover{
     color: red;
     text-shadow: 4px 4px 10px red;
+    transform: rotate3d(5,5,5,360deg);
 }
